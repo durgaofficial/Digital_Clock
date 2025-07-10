@@ -69,7 +69,7 @@ function App() {
             {addZero(currentDate.getMonth() + 1)}-{addZero(currentDate.getDate())}-{currentDate.getFullYear()}
           </div>
           <div className="display">
-            {days[currentDate.getDay()]}
+            {days[currentDate.getUTCDay()]}
           </div>
         </div>
 
