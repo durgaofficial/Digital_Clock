@@ -1,0 +1,62 @@
+/* App.css */
+
+body {
+  background-color: #121212;
+  color: #f0f0f0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 3rem;
+  color: #00ffea;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.child {
+  background-color: #222;
+  padding: 20px 30px;
+  border-radius: 10px;
+  font-size: 3rem;
+  font-weight: 700;
+  box-shadow: 0 0 10px #00ffea99;
+  min-width: 80px;
+  user-select: none;
+}
+
+.date-day-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.display {
+  font-size: 1.8rem;
+  color: #00ffea;
+  letter-spacing: 3px;
+  font-weight: 700;
+  /* text-shadow:
+    0 0 5px #00ffe8,
+    0 0 10px #00ffe8,
+    0 0 20px #00ffe8,
+    0 0 40px #00ffe8; */
+  user-select: none;
+}
