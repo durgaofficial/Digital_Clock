@@ -14,7 +14,7 @@ If you are developing a production application, we recommend using TypeScript wi
 
 A simple and elegant digital clock built with **React.js** that displays real-time hours, minutes, seconds, AM/PM, current date, and day of the week.
 
-![Digital Clock Screenshot](src/assets/screenshot.png)
+![Digital Clock Screenshot](assets/screenshot.png)
 
 ---
 
